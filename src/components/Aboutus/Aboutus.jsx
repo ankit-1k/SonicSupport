@@ -21,7 +21,7 @@ const About = () => {
                     </div>
                     <div>
                         <p> Welcome to <span className='brand-name'>SonicSupport</span>, where conversations thrive through voice interaction. We enable seamless question-and-answer exchanges, solely through voice commands. Our mission is to revolutionize online engagement, making information more accessible and conversations more dynamic. Experience the power of spoken communication with <span className='brand-name'>SonicSupport</span>.</p>
-                        <button className='button read-more'>Read More...</button>
+                        <button className='button read-more' onClick={()=>window.open('https://ankit5116k.netlify.app/')}>Read More...</button>
                     </div>
                 </div>
             </section>

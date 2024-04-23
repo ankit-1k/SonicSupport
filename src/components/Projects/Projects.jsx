@@ -7,26 +7,26 @@ const Projects = () => {
         {
             id: '1',
             name: 'SonicPortfolios',
-            txt: 'This is dummy Txt',
-            link: 'www.google.com'
+            txt: 'Developed a voice-command-operated website enabling communication with a bot for streamlined interaction and user engagement.',
+            link: 'https://ankit5116k.netlify.app/'
         },
         {
             id: '2',
             name: 'HYDPG',
-            txt: 'This is another dummy Txt',
-            link: 'www.example.com/project2'
+            txt: 'Developed React platform for Hyderabad PG search, dynamic components, efficient data management.',
+            link: 'https://hydpg.netlify.app/'
         },
         {
             id: '3',
             name: 'SIIM',
-            txt: 'This is yet another dummy Txt',
-            link: 'www.example.com/project3'
+            txt: 'Created responsive college website template: HTML, CSS, JavaScript. Clean design, device-friendly.',
+            link: 'https://ankit-1k.github.io/SIIM/'
         },
         {
             id: '4',
             name: 'FilmFlix',
-            txt: 'This is the fourth dummy Txt',
-            link: 'www.example.com/project4'
+            txt: 'Debuted FilmFlix: dynamic site for Bollywood, Hollywood, and Tollywood films; user-friendly for easy browsing and updated selections.',
+            link: 'https://ankit-1k.github.io/movie-website/'
         }
     ];
 
