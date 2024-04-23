@@ -1,0 +1,71 @@
+[
+    {
+      "section": "HTML",
+      "questions": [
+        {
+          "question": "What does HTML stand for?",
+          "answer": "HTML stands for HyperText Markup Language."
+        },
+        {
+          "question": "What is the purpose of the <div> element in HTML?",
+          "answer": "The <div> element is a block-level container typically used to group HTML elements together."
+        },
+        {
+          "question": "Explain the difference between <div> and <span>.",
+          "answer": "The <div> element is a block-level container, while the <span> element is an inline-level container."
+        }
+      ]
+    },
+    {
+      "section": "CSS",
+      "questions": [
+        {
+          "question": "What is CSS used for in web development?",
+          "answer": "CSS is used for styling the appearance of HTML elements on web pages."
+        },
+        {
+          "question": "Explain the difference between padding and margin in CSS.",
+          "answer": "Padding is the space inside the border of an element, while margin is the space outside the border."
+        },
+        {
+          "question": "What is a CSS selector? Provide examples.",
+          "answer": "A CSS selector targets specific HTML elements to apply styling. Examples: class (.class), ID (#id), element (element)."
+        }
+      ]
+    },
+    {
+      "section": "JavaScript",
+      "questions": [
+        {
+          "question": "What is JavaScript and its role in web development?",
+          "answer": "JavaScript is a scripting language used for adding interactivity and behavior to web pages."
+        },
+        {
+          "question": "Explain the difference between == and === in JavaScript.",
+          "answer": "== is a loose equality comparison, === is strict equality comparison, checking both value and type."
+        },
+        {
+          "question": "What is a closure in JavaScript? Provide an example.",
+          "answer": "A closure is a function that retains access to variables from its parent scope even after the parent function has finished executing. Example: function outer() { var x = 10; function inner() { return x; } return inner; } var closure = outer(); console.log(closure());"
+        }
+      ]
+    },
+    {
+      "section": "React",
+      "questions": [
+        {
+          "question": "What is React and its main features?",
+          "answer": "React is a JavaScript library for building user interfaces, known for its component-based architecture, virtual DOM, and declarative syntax."
+        },
+        {
+          "question": "Explain the concept of Virtual DOM in React.",
+          "answer": "Virtual DOM is a lightweight copy of the actual DOM, used by React to efficiently update the UI by comparing changes before making updates to the real DOM."
+        },
+        {
+          "question": "What are React hooks? Provide examples of their usage.",
+          "answer": "React hooks are functions that enable developers to use state and other React features in functional components. Examples: useState(), useEffect()."
+        }
+      ]
+    }
+  ]
+  

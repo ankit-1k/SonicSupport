@@ -7,7 +7,7 @@ import News from './components/News/News';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import Aboutus from './components/Aboutus/Aboutus';
-import Notes from './components/Notes/Notes';
+import Notes from './components/Notes/Note';
 const App = () => {
   return (
     <BrowserRouter>

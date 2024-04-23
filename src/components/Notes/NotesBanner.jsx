@@ -1,5 +1,5 @@
 import React from 'react'
-
+import readImg from './../assets/img/portal_black.gif'
 const NotesBanner = () => {
     return (
         <div>
@@ -8,12 +8,12 @@ const NotesBanner = () => {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="image-container">
-                                <img src="https://i.pinimg.com/originals/de/9e/b6/de9eb637d1dac9a77a7f3822ed57ce07.gif" alt="Banner" className="banner-image" />
+                                <img src={readImg} alt="Banner" className="banner-image" />
                             </div>
                         </div>
                         <div className="col-md-6">
                             <div className="text-container">
-                                <h1 className='lg-text'>Welcome to <span className='brand-name'>SonicNotes</span> </h1>
+                                <h1 className='lg-text mt-5'>Welcome to <span className='brand-name'>SonicNotes</span> </h1>
                                 <p>Organize your thoughts, tasks, and ideas with ease. My Notes provides a simple yet powerful platform for managing all your notes in one place. Whether it's jotting down quick reminders, planning your day, or brainstorming new concepts, My Notes has got you covered.</p>
                                 <p>Start creating and organizing your notes today!</p>
                                 <div className="button-container">
