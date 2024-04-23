@@ -94,6 +94,7 @@
 }
 .search-note-suggestion{
     /* background-image: url('https://user-images.githubusercontent.com/6901805/58038897-167f0280-7ae6-11e9-94eb-88e880a25f0f.gif'); */
+    background-color: black;
     background-size: cover;
     background-position: center center;
     color: white;
