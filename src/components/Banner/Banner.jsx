@@ -1,7 +1,7 @@
 import React from 'react';
 import './banner.css';
 import { useNavigate } from 'react-router-dom';
-  
+import banner from './../assets/img/banner-1.gif'
 const Banner = () => {
   const navigate=useNavigate()
   const handleNotes=()=>{
@@ -13,7 +13,7 @@ const Banner = () => {
         <div className="row">
           <div className="col-md-6">
             <div className="image-container">
-              <img src="https://cdn.dribbble.com/userupload/10951017/file/still-94c7851a1b9b8a9d69e191c3c49213f6.gif?resize=400x0" alt="Banner" className="banner-image"/>
+              <img src={banner} alt="Banner" className="banner-image"/>
             </div>
           </div>
           <div className="col-md-6">

@@ -101,3 +101,11 @@
         padding: 0px;
     }
 }
+@media (max-width:555px) {
+    .project-container .project-card .face.face1{
+        height: 230px;
+    }
+    .content{
+        line-height: 19px;
+    }
+}
