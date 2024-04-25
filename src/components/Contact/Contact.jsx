@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <div>
             <Banner />
-            <div class="contact-container mt-5 mb-5">
+            <div className="contact-container mt-5 mb-5">
                 <form id="contact" action="" method="post">
                     <h1 className='text-center mt-1 brand-name m-1 '>Contact</h1>
                     <div className='d-flex justify-content-center mb-4'>

@@ -37,18 +37,18 @@ const Projects = () => {
             <div className='d-flex justify-content-center mb-4'>
                 <div className='hr bg-dark'></div>
             </div>
-            <div class="project-container">
+            <div className="project-container">
                 {
                     projectJson.map((item, index) => (
-                        <div class="project-card">
-                            <div class="face face1">
-                                <div class="content">
+                        <div className="project-card">
+                            <div className="face face1">
+                                <div className="content">
                                     {/* <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true" /> */}
                                     <h3>{item.name}</h3>
                                 </div>
                             </div>
-                            <div class="face face2">
-                                <div class="content">
+                            <div className="face face2">
+                                <div className="content">
                                     <p>{item.txt}</p>
                                     <a href={item.link}>View Project</a>
                                 </div>

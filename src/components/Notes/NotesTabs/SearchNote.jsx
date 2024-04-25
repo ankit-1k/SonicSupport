@@ -22,7 +22,7 @@ const SearchNote = () => {
                 <div className="d-flex justify-content-center">
                     <input
                         type="text"
-                        placeholder="Search..."
+                        placeholder="Search Question..."
                         value={searchInput}
                         onChange={(e) => setSearchInput(e.target.value)}
                         className='search-note-input'

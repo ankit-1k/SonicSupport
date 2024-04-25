@@ -53,13 +53,11 @@ const Navbar = () => {
                     <i onClick={handleAbout}>About</i>
                 </div>
 
-                {/* This button only shows up on small screens. It is used to open the mobile menu */}
                 <button className='show-mobile-menu-button' onClick={toggleMobileMenu}>
                     &#8801;
                 </button>
             </div>
 
-            {/* The mobile menu and the close button */}
             {isShown && <MobileMenu />}
             {isShown && (
                 <button className='close-mobile-menu-button' onClick={toggleMobileMenu}>

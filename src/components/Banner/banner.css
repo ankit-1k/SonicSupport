@@ -10,11 +10,9 @@
     background-color: black;
     height: 100vh;
 }
-
 .image-container {
     flex: 1;
     margin-right: 20px;
-    /* Adjust margin as needed */
 }
 
 .banner-image {

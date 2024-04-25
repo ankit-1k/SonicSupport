@@ -9,7 +9,7 @@ const Banner = () => {
   }
   return (
     <div className="banner-container">
-      <div className="container">
+      <div className="container akp">
         <div className="row">
           <div className="col-md-6">
             <div className="image-container">
